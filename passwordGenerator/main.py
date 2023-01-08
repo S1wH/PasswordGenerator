@@ -42,6 +42,7 @@ def getPasswordStrength(entropy: float):
             p_strength = strength.name
         else:
             return p_strength
+    return p_strength
 
 
 def main():
